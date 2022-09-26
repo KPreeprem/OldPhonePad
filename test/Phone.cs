@@ -3,8 +3,8 @@ using System.Text; // For StringBuilder class
 
 public class Phone // Class Definition
 {
-	public static String OldPhonePad(string input) //Method
-    {
+        public static String OldPhonePad(string input) //Method
+        {
 		/*
 		 * Create StringBuilder Object to store input valued that's interpreted into texts
 		 */
@@ -13,7 +13,7 @@ public class Phone // Class Definition
 		int count = 0;
 
 		foreach (char c in input)
-        {
+                {
 			/* 
 			 * Set up count to 1 and have the first character read stored 
 			 * in the variable prevChar
@@ -180,7 +180,7 @@ public class Phone // Class Definition
 				case '#':
 					break;
 			}
-        }
+                }
 		/*
 		 * Convert the stored values in StringBuilder into String texts
 		 */
