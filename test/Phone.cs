@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Text; //for StringBuilder class
+using System.Text; // For StringBuilder class
 
-public class Phone //Class Definition
+public class Phone // Class Definition
 {
 	public static String OldPhonePad(string input) //Method
     {
